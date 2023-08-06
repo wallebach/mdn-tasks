@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backgrounds 2</title>
+    <style>
+      .box {
+        border: 5px lightblue solid;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 40px;
+        background-image: url(star.png), url(star.png), url(star.png),
+          url(star.png);
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: center left, 100% 25%, center right, 100% 75%;
+      }
+
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h2>Backgrounds & Borders</h2>
+    </div>
+  </body>
+</html>
