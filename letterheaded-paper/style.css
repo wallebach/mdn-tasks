@@ -39,3 +39,16 @@ h1 {
 }
 
 /* Your CSS below here */
+article {
+  border-top: 3px solid #ff0000;
+  border-bottom: 3px solid #ff0000;
+  background: url("top-image.png") top no-repeat,
+    url("bottom-image.png") bottom no-repeat,
+    linear-gradient(to bottom, #bababa, white 20%, white 80%, #bababa);
+}
+
+h1 {
+  background: url(logo.png) no-repeat;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 50%;
+}
