@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Holidays Homework";
+  src: url("fonts/Holidays\ Homework.ttf");
+}
+
+@font-face {
+  font-family: "Sunday Bloom";
+  src: url("fonts/Sunday\ Bloom.ttf");
+}
+
+:root {
+  --background-color: #f2f2f2;
+  --title-color: #8c5c03;
+  --header-color: #f29f05;
+  --text-color: #6c6f73;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Sunday Bloom", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  font-family: "Holidays Homework", sans-serif;
+  text-align: center;
+  color: var(--title-color);
+  padding: 40px;
+}
+
+h2 {
+  letter-spacing: 2px;
+  color: var(--header-color);
+}
+
+section,
+aside,
+nav {
+  font-size: 1.5em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+section {
+  float: left;
+  width: 60%;
+}
+
+aside {
+  float: left;
+  width: 25%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+nav {
+  float: right;
+  width: 15%;
+}
+
+nav ul li {
+  text-align: center;
+  list-style-type: none;
+  line-height: 40px;
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid var(--header-color);
+}
+
+h2 + p {
+  text-indent: 30px;
+}
+
+li,
+p {
+  line-height: 1.5;
+}
+
+li {
+  list-style-type: square;
+}
+
+a {
+  color: var(--header-color);
+  outline: none;
+}
+
+a[href^="https"] {
+  background: url("external-link-52.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+a:visited,
+a:hover,
+a:focus {
+  background: var(--text-color);
+  text-decoration: none;
+}
+
+nav ul li a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: dashed;
+  background-color: var(--title-color);
+}
