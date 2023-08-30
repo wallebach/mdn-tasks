@@ -1,0 +1,65 @@
+@font-face {
+  font-family: restaurant;
+  src: url("Restaurant.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0;
+  width: 500px;
+}
+
+h2 {
+  font-family: restaurant;
+  color: #400101;
+  font-size: 2em;
+}
+
+form {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #f29f05;
+  padding: 1em;
+
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-flow: row;
+  border-radius: 10px;
+}
+
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-type: none;
+}
+
+select {
+  width: 85px;
+}
+
+input,
+button {
+  border-color: #f2b705;
+}
+
+button {
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+button,
+select {
+  background-color: #bf3604;
+  color: #f29f05;
+}
